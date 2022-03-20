@@ -3,12 +3,12 @@ version: 2.1
 jobs:
   print_hello:
     docker:
-      - image: circleci/node:13.8.0
+      - image: cimg/node:17.7.2
     steps:
       - run: echo "hello"
   print_world:
     docker:
-      - image: circleci/node:13.8.0
+      - image: cimg/node:17.7.2
     steps:
       - run: echo "world"
 
